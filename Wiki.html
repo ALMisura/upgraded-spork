@@ -1,0 +1,148 @@
+{{transclude name="Fulfillment Center_Header" args="subTitle=Processing Trans-Out"/}}
+
+                            [[image:PTO.PNG]]
+
+== What is Trans-Out at Fulfillment Center? ==
+
+Trans-Out is the process of sending freight from our facility to another Amazon facility.
+Currently, Fulfillment Center is sending out Team Lift and Sortable items; with Team Lift being sent to Facility 1 or Facility 2 and Sortables being sent to Facility 3, Facility 4, or Facility 5.
+
+**Always confirm** the destination with Receive Management before beginning the Trans-Out process.
+
+== Permissions Needed ==
+
+You'll need a few permissions to complete the Trans-Out Process.
+
+**Outbound - Permission Needded**                                                                                                               **Sort Center - Permission Needed**
+[[image:OBBH.PNG||width="595"]] [[image:SC.PNG||width="645"]]
+
+It is also recommended to have basic Problem Solve permissions for access to the Adjustment Tool, Move Tool and the Build Pallet Tool.
+
+
+== Verify Inventory ==
+
+Before anything is sent to another facility, the inventory must be verified. Check for correct quantities, correct Item Identifier and that the item is meant for Trans-Out.
+
+Click below to see how to resolve these common issues you may face when verifying inventory  - 
+
+{showhide showmessage="The items have been virtually deleted." hidemessage="Hide" style="background: #bed8f7; border: 1px dotted #000; border-radius: 5px; padding: 1.0em"}}(% style="background: #eee; border-radius: 5px; padding: 1.0em; margin-top: 10px" %)
+(((If the items have been virtually deleted - 
+There is high probability Team Lift cases will have been deleted. Since we are not actively stowing these cases, they may end up on Inventory Tracking. If the Inventory Tracking hunter cannot find the case, it may be deleted.
+Before we ship anything out we need to verify the inventory is virtually present and correct. 33: 
+[[image:ShortCase.PNG]])))
+{{/showhide}}
+ 
+{{showhide showmessage="The items are in Totes." hidemessage="Hide" style="background: #bed8f7; border: 1px dotted #000; border-radius: 5px; padding: 1.0em"}}(% style="background: #eee; order-radius: 5px; padding: 1.0em; margin-top: 10px" %)
+(((If the items are in totes -  
+When sending out Sortables, the items will typically be sent in totes.  As always, verify the inventory before beginning the Trans-Out process.
+[[image:GoodToteBadTote.PNG]]
+Once the physical and virtual match of the inventory is confirmed, you can move on to Building your Pallet.)))
+{{/showhide}}
+ 
+{{showhide showmessage="The items are virtually attached to a cage." hidemessage="Hide" style="background: #bed8f7; border: 1px dotted #000; border-radius: 5px; padding: 1.0em"}}(% style="background: #eee; border-radius: 5px; padding: 1.0em; margin-top: 10px" %)
+(((If the items are virtually attached to a cage - 
+The items may have been received into a cage instead of individual case labels. 43: 
+All 3 cases are attached to the cage, using Problem Tools - Move Tool, we’ll put each in its own case label.
+[[image:CaseinCage.PNG]])))
+{{/showhide}}
+ 
+{{showhide showmessage="The items are a Single Item Identifier Pallet." hidemessage="Hide" style="background: #bed8f7; border: 1px dotted #000; border-radius: 5px; padding: 1.0em"}}(% style="background: #eee; border-radius: 5px; padding: 1.0em; margin-top: 10px" %)
+(((If the items are a Single Item Identifier Pallet- 
+When all units on the pallet are the same, you can combine them into a single Pallet Label, instead of having to label each case individually. 
+First, verify the inventory. This pallet has been deleted so add it back with Adjustment Tool. The destination container will have to be a Case Label, as Adjustment Tool does not let you add straight into a Pallet Label. 
+[[image:BuildPallet1.PNG||width="700"]]
+[[image:BuildPallet2.PNG||width="700"]]
+[[image:BuildPallet3.PNG||width="700"]])))
+{{/showhide}}
+
+== Build the Pallet **Physically** ==
+
+Once inventory is verified, building the pallet can begin. Use caution when stacking items, always bend at the knees and lift in the power zone. 
+Pallets **must** be stable and wrapped tightly to avoid shifting during transport.
+
+Click below to see the specifics of building pallets for the items you are working with -
+
+{{showhide showmessage="Building a Pallet - Cases." hidemessage="Hide" style="background: #bed8f7; border: 1px dotted #000; border-radius: 5px; padding: 1.0em"}}(% style="background: #eee; border-radius: 5px; padding: 1.0em; margin-top: 10px" %)
+(((Using One Piece Flow, scan each Case Label before placing the case onto a new empty pallet. Keeping this list of Case Labels will keep us organized and save some time down the line. Once the pallet is full, you're ready to Bind the Pallets for Transshipment.
+[[image:Pallettags.PNG||width="185"]][[image:PalletStacked.PNG||width="253"]] [[image:Pallettags2.PNG||width="228"]][[image:PalletStacked2.PNG||width="216"]] [[image:Pallettags3.PNG||width="150"]][[image:PalletStacked3.PNG||width="230"]]
+((()))
+If you have multiple cases of the same item (verify Item Identifier matches) **it is preferable to combine them into a Single Item Identifier Pallet**. Please refer to the section above for how to build a group of cases into a Single Item Identifier Pallet.
+[[image:SAP1.PNG||width="290"]] [[image:SAP2.PNG||width="200"]] [[image:SAP3.PNG||width="178"]] [[image:SAP4.PNG||width="280"]]))){{/showhide}}
+{{showhide showmessage="Building a Pallet - Totes." hidemessage="Hide" style="background: #bed8f7; border: 1px dotted #000; border-radius: 5px; padding: 1.0em"}}(% style="background: #eee; border-radius: 5px; padding: 1.0em; margin-top: 10px" %)
+(((Place totes on and empty pallet, stacking a maximum of 5 high. Place totes to make 5 columns, 3 facing horizontally and 3 facing vertically. Printing the tote labels is optional, as accessing each of the tote barcodes is not as difficult as when building a pallet of cases. Try to avoid product sticking over the top of the tote.
+[[image:Totes1.PNG||width="335"]] [[image:Totes2.PNG||width="263"]] [[image:Totes3.PNG||width="370"]] [[image:Totes4.PNG||width="273"]])))
+{{/showhide}}
+
+== Bind the Pallets for Transshipment ==
+
+The process for Binding Pallets for Transshipment is the same whether you are Binding Case Labels, Totes or Pallet Item Identifier Pallet Label Tags.
+When Binding Case Labels, here is where you'll utilize the printed list of cases you created while physically building your pallet. 
+[[image:Binding1.PNG||width="500"]][[image:Arrow1.PNG||width="100"]][[image:Binding2.PNG||width="600"]]
+
+When completed successfully, Researching Tool will now show the new owner as TRANSSHIPMENT
+[[image:BindComplete.PNG||width="650"]]
+
+If you make a mistake and Bind to the wrong destination, Press A to change to the correct destination and simply re-scan. 
+
+{{showhide showmessage="I got an error when trying to Bind." hidemessage="Hide" style="background: #faacac; border: 1px dotted #000; border-radius: 5px; padding: 1.0em"}}(% style="background: #eee; border-radius: 5px; padding: 1.0em; margin-top: 10px" %)((([[image:BindFail.PNG||width="545"]] 
+If you had to Adjustment Tool items to their container you **must** wait until their Consumer reads **UNOWNED**. Check this in Researching Tool. 
+[[image:PStoUO.PNG]])))
+{{/showhide}}
+
+== Build the Pallet **Virtually** ==
+
+Now the pallet can be built **virtually**. This step is only for Case Labels and Totes. 
+**If you have a Single Item Identifier pallet with a bound Item Identifier Pallet Label, skip this step and continue to the next section for moving the pallets physically and virtually to the trailer.**
+Again, here you can utilize the printed list of cases you created while physically building your pallet.
+[[image:Create1.PNG||width="750"]]
+[[image:Create2.PNG||width="750"]]
+ 
+{{showhide showmessage="Fulfillment Center Stacking Areas" hidemessage="Hide" style="background: #bed8f7; border: 1px dotted #000; border-radius: 5px; padding: 1.0em"}}(% style="background: #eee; border-radius: 5px; padding: 1.0em; margin-top: 10px" %)(((When sending items to AVP3 (Team Lift) use the AVP3_Case stacking area.      When sending items to DCA1 (Sortables) use the DCA1_Tote stacking area.
+[[image:AVP3_CASE.png||width="488"]] [[image:DCA1tote.PNG||width="550"]] 
+You can download these images in the attachments tab.)))
+{{/showhide}}
+	 
+[[image:Create3.PNG||width="750"]]
+[[image:Create3.5.PNG||width="750"]]
+
+{{showhide showmessage="I got an error when Moving the Container." hidemessage="Hide" style="background: #faacac; border: 1px dotted #000; border-radius: 5px; padding: 1.0em"}}(% style="background: #eee; border-radius: 5px; padding: 1.0em; margin-top: 10px" %)((([[image:MoveFail.PNG||width="650"]]
+Verify the Container is **bound** to the correct Facility
+Verify the Container **virtually** has items attached to it)))
+{{/showhide}}
+	 
+[[image:Create4.PNG||width="750"]]
+[[image:Create5.PNG||width="750"]]
+[[image:Create6.PNG||width="750"]]
+[[image:Create7.PNG||width="750"]]
+
+== Move Pallets to the Trailer **Physically** and **Virtually** ==
+ 
+Typically, an empty trailer can hold 30 pallets single stacked, 60 if double stacked.
+
+Because Team Lift items usually have some overhang you may not be able to fit 30 pallets in the trailer. The best practice is to start with about 20 pallets and then load more if possible.
+ 
+If stacking tote pallets, the best practice is to have one pallet of 5 high totes and one pallet of 4 high totes for better clearance when loading the trailer. 
+**Always** ensure stacked pallets are tightly wrapped. While possible, it is **not** recommended to double stack Team Lift pallets due to their weight and vulnerability to falling during transport.
+ 
+**Always** verify Trailer Standard Practice has been completed before entering a trailer.
+ 
+[[image:Move1.PNG||width="750"]]125: 
+[[image:ToteLabel.PNG||width="230"]] [[image:Pallettag.PNG||width="423"]]
+
+{{showhide showmessage="I got an error when scanning the Container to the door." hidemessage="Hide" style="background: #faacac; border: 1px dotted #000; border-radius: 5px; padding: 1.0em"}}(% style="background: #eee; border-radius: 5px; padding: 1.0em; margin-top: 10px" %)(((
+Verify the correct door barcode is being used.
+- The barcode **must** be taken from the Trans-logistics site. You cannot simply use printmon to print the sticker out.
+QR codes for the Dock Doors can be found in the Resource Management section of Amazon Logistics site. If you do not have permissions for Amazon Logistics, ask your manager to do this for you. 
+Verify the VRID is attached to the Trailer at the door being scanned.
+- The VRID **must** be virtually attached to the trailer/door being loaded.
+Amazon Logistics permissions are needed to do this. If you do not have permissions for Amazon Logistics, ask your manager to do this for you.  
+Verify the Trailer at the door being scanned has been "Started" in SSP. 
+- The trailer **must** have been "Started" in the Outbound Dock Manager Trans-logistics site.
+Amazon Logistics permissions are needed to do this. If you do not have permissions for Amazon Logistics, ask your manager to do this for you. 
+Verify the Inventory of the pallet being moved has not been deleted. 
+- It is possible inventory was deleted for sitting in the "Transshipment" status for too long. If inventory has been deleted, the process must be completely redone.)))
+{{/showhide}}
+	 
+[[image:Move2.PNG||width="750"]]
+[[image:Move3.PNG||width="750"]]
+[[image:Seal.PNG||width="750"]]
